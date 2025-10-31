@@ -1,6 +1,9 @@
 {
   "name": "mindpod-ai-—-your-study-companion",
   "private": true,
+  "homepage": "https://Rohith-46-s.github.io/mindpod",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
   "version": "0.0.0",
   "type": "module",
   "scripts": {
