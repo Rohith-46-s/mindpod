@@ -1,20 +1,42 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+  <img width="1200" height="475" alt="MindPod Banner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+  <h1>🧠 MindPod — Your AI Study Companion</h1>
+  <p><i>Focus, Learn, and Relax — all in one AI-powered environment.</i></p>
+
+  <a href="https://rohith-46-s.github.io/mindpod">🌐 View Live App</a> •
+  <a href="https://devpost.com/">💡 Devpost Page</a>
 </div>
 
-# Run and deploy your AI Studio app
+---
 
-This contains everything you need to run your app locally.
+## 📖 Overview
+**MindPod** is an intelligent offline AI companion built with React + TypeScript.  
+It helps learners stay productive through:
+- 🎧 Voice-based interaction — ask questions, get instant spoken answers.  
+- 🧩 Relaxing mini-games to refresh your mind between sessions.  
+- 📚 Study tools like document notes, AI flashcards, and summaries.  
+- 💭 Fully on-device — no cloud APIs, powered by Gemini Nano.  
 
-View your app in AI Studio: https://ai.studio/apps/drive/1KIsmcui3k8-zCHmyIEy75V_N3d3eQUdB
+---
 
-## Run Locally
+## ⚙️ Run Locally
 
-**Prerequisites:**  Node.js
+**Prerequisites:**  
+- Node.js (v18 or higher)  
+- Git (for cloning the repository)
 
+```bash
+# Clone the repository
+git clone https://github.com/Rohith-46-s/mindpod.git
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+# Go into the project folder
+cd mindpod
+
+# Install dependencies
+npm install
+
+# (Optional) Add Gemini API key if using online model
+# echo GEMINI_API_KEY=your_api_key > .env.local
+
+# Start local server
+npm run dev
