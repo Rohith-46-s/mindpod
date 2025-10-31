@@ -1,0 +1,7 @@
+{
+  "name": "MindPod AI — Your Study Companion",
+  "description": "An intelligent web app that transforms documents into notes, quizzes, and tasks. It combines study tools, AI chat, and a relaxing word game to enhance learning and creativity.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
